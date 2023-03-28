@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.menu {
+  background-color: #1a1a1a;
+  height: 60px;
+}
+
+.menu .list {
+  display: flex;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto;
+  height: 60px;
+  color: #fff;
+  padding: 0 30px;
+}
+
+.menu .list .active {
+  color: #fc6020;
+}
+
+.menu .list h2 {
+  padding: 0;
+}
+
+.bass {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 90px 30px;
+}
+
+.bass .box {
+  padding: 6px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  outline: none
+}
+
+button {
+  background-color: #fc6020;
+  color: #fff;
+  border: 0;
+  padding: 6px 32px;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 18px auto;
+  font-weight: 400;
+}
+
+input {
+  border-radius: 5px;
+  padding: 6px 12px;
+  font-size: 14px;
+  border: hsl(0deg 0% 0% / 20%) 1px solid;
+}
+
+.registration_box {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 28px auto 10px;
+  max-width: 500px;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #00000083;
+  z-index: 2;
+  padding: 120px 60px;
+}
+
+.fill .box {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.fill .box .coupon_number{
+  color: #fc6020;
+}
+
+table {
+  width: 100%;
+  border: 4px solid rgba(0, 0, 0, 0.12);
+  border-collapse: collapse;
+}
+
+table th,table  td {
+  border-top: 4px solid rgba(0, 0, 0, 0.12);
+}
